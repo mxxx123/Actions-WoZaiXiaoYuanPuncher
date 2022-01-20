@@ -118,19 +118,18 @@
   <details>
   <summary><b>推送服务（可选）</b></summary>
 
-  > 目前支持的推送方式：
-  >
-  > - Serverchan-Turbo
-  > - Bark
-  > - pushplus
-  > - 钉钉机器人
-  > - QQ机器人（go-cqhttp）
-  >
-  > 需要使用哪一种方式推送，创建该方式对应的 Secret 即可。
-  >
-  > 可以同时推送多个渠道，只需额外创建这些推送方式对应的 Secret 即可。
-  >
-  > 如不创建这些推送方式对应的 Secret，则不会推送打卡结果通知。
+  目前支持的推送方式：
+  - Serverchan-Turbo
+  - Bark
+  - pushplus
+  - 钉钉机器人
+  - QQ机器人（go-cqhttp）
+  
+  需要使用哪一种方式推送，创建该方式对应的 Secret 即可。
+
+  可以同时推送多个渠道，只需额外创建这些推送方式对应的 Secret 即可。
+  
+  如不创建这些推送方式对应的 Secret，则不会推送打卡结果通知。
 
   <details>
   <summary><b>Serverchan-Turbo</b></summary>
